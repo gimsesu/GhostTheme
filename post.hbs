@@ -10,6 +10,7 @@ This template is used for the post page.
 
 {{!-- This block loads specific styles for the post page --}}
 {{#contentFor "styles"}}
+  <link rel="stylesheet" type="text/css" href="{{asset "css/prism.css"}}" />
   <link rel="stylesheet" type="text/css" href="{{asset "css/post.css"}}" media="screen" />
 {{/contentFor}}
 
@@ -235,4 +236,6 @@ into the {body} of the default.hbs template --}}
 {{!-- The #contentFor helper here will send everything inside it up to the matching #block helper found in default.hbs --}}
 {{#contentFor "scripts"}}
   <script defer src="{{asset "js/post.js"}}"></script>
+  <script type="text/javascript" src="{{asset "js/prism.js"}}"></script>
+  
 {{/contentFor}}
