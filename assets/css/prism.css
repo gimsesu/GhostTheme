@@ -1,5 +1,5 @@
 /* PrismJS 1.22.0
-https://prismjs.com/download.html#themes=prism-tomorrow&languages=markup+css+clike+javascript+bash+css-extras+docker+go+http+json+markdown+mongodb+python+shell-session+sql+typescript+vim+yaml&plugins=line-numbers+show-language+highlight-keywords+inline-color+toolbar+copy-to-clipboard */
+https://prismjs.com/download.html#themes=prism-tomorrow&languages=markup+css+clike+javascript+bash+c+css-extras+docker+git+go+graphql+handlebars+ignore+json+json5+markdown+markup-templating+mongodb+nginx+powershell+python+jsx+tsx+regex+rust+sql+typescript+typoscript+vim+yaml&plugins=line-numbers+show-language+inline-color+toolbar+match-braces */
 /**
  * prism.js tomorrow night eighties for JavaScript, CoffeeScript, CSS and HTML
  * Based on https://github.com/chriskempson/tomorrow-theme
@@ -261,5 +261,35 @@ span.inline-color {
 	/* To prevent visual glitches again */
 	height: 120%;
 	width: 120%;
+}
+
+.token.punctuation.brace-hover,
+.token.punctuation.brace-selected {
+	outline: solid 1px;
+}
+
+.rainbow-braces .token.punctuation.brace-level-1,
+.rainbow-braces .token.punctuation.brace-level-5,
+.rainbow-braces .token.punctuation.brace-level-9 {
+	color: #E50;
+	opacity: 1;
+}
+.rainbow-braces .token.punctuation.brace-level-2,
+.rainbow-braces .token.punctuation.brace-level-6,
+.rainbow-braces .token.punctuation.brace-level-10 {
+	color: #0B3;
+	opacity: 1;
+}
+.rainbow-braces .token.punctuation.brace-level-3,
+.rainbow-braces .token.punctuation.brace-level-7,
+.rainbow-braces .token.punctuation.brace-level-11 {
+	color: #26F;
+	opacity: 1;
+}
+.rainbow-braces .token.punctuation.brace-level-4,
+.rainbow-braces .token.punctuation.brace-level-8,
+.rainbow-braces .token.punctuation.brace-level-12 {
+	color: #E0E;
+	opacity: 1;
 }
 
