@@ -1,2 +1,10 @@
 <link rel="stylesheet" type="text/css" href="{{asset "css/prism.css"}}" />
 <script type="text/javascript" src="{{asset "js/prism.js"}}"></script>
+<script>
+    window.addEventListener('DOMContentLoaded', (event) => {
+        document.querySelectorAll('pre[class*=language-').forEach(function(node) {
+            node.classList.add('line-numbers');
+        });
+        Prism.highlightAll();
+    });
+</script>
