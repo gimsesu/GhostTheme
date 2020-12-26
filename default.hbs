@@ -11,10 +11,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
     {{!-- Preload assets --}}
-    <link rel="preload" href="{{asset "fonts/ibm-plex-sans-kr/css/ibm-plex.min.css"}}" as="style" />
-    <link rel="preload" href="{{asset "fonts/ibm-plex-sans-kr/css/ibm-plex-sans-kr.min.css"}}" as="style" />
-    <link rel="preload" href="{{asset "css/fonts.css"}}" as="syle" />
-    
     <link rel="preload" href="{{asset "css/app.css"}}" as="style" />
     <link rel="preload" href="{{asset "js/manifest.js"}}" as="script" />
     <link rel="preload" href="{{asset "js/vendor/content-api.min.js"}}" as="script" />
@@ -78,6 +74,10 @@
     </style>
 
     <link rel="stylesheet" type="text/css" href="{{asset "css/app.css"}}" media="screen" />
+
+    <link rel="stylesheet" type="text/css" href="{{asset "fonts/ibm-plex-sans-kr/css/ibm-plex.css"}}" />
+    <link rel="stylesheet" type="text/css" href="{{asset "fonts/ibm-plex-sans-kr/css/ibm-plex-sans-kr.css"}}" />
+    <link rel="stylesheet" type="text/css" href="{{asset "css/fonts.css"}}" />
 
     {{!-- This #block helper will inject a stylesheet for a specific page --}}
     {{{block "styles"}}}
