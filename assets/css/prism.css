@@ -10,7 +10,7 @@ code[class*="language-"],
 pre[class*="language-"] {
 	color: #ccc;
 	background: none;
-	font-family: 'IBM Plex Mono', 'IBM Plex Sans KR Medium', 'IBM Plex Sans Medium', Consolas, Monaco, 'Andale Mono', 'Ubuntu Mono', monospace;
+	font-family: 'IBM Plex Mono Medium', 'IBM Plex Sans KR Medium', Consolas, Monaco, 'Andale Mono', 'Ubuntu Mono', monospace;
 	font-size: 1em;
 	text-align: left;
 	white-space: pre;
